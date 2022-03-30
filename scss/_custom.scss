@@ -1,0 +1,28 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+$purple-dark: #9926f0;
+$purple-light: #bb6ef5;
+$footer: #151414;
+$pink: #d63384;
+
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+$font-family-sans-serif: 'Poppins';
+$font-family-monospace: 'Poppins';
+// Include any default variable overrides here (though functions won't be available)
+
+$primary: $purple-dark;
+$secondary: $pink;
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+// Then add additional custom code here
